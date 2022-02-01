@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;900&family=Exo:wght@900&display=swap');
+.title {
+  font-family: 'Exo', sans-serif;
+  color: white;
+  text-align: center;
+  background-color: gray;
+  margin: 0px 25px -25px 25px;
+  border-radius: 0px 0px 25px 25px;
+  border-style: solid;
+}
+
+.titletext {
+  margin: 25px 25px 0px 25px;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo', sans-serif;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.subtitletext {
+  margin: 0px 0px 25px 0px;
+    color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    font-family: 'Exo', sans-serif;
+  text-align: center;
+  background-color: grey;
+  margin: 10;
+  border-radius: 10px;
+  border-style: solid;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.buttons {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contentiframe {
+  border: none;
+  margin: 0 auto;
+  height: 80%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.contentiframe::-webkit-scrollbar {
+  display: none;  
+} 
+
+.gamestext {
+  display: inline-block;
+  align: center;
+}
+
+
+
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #383838;
+}
+
+html {
+  margin: 0;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.dropbtn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  background-color: grey;
+  margin: 10;
+  border-radius: 10px;
+  border-style: solid;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+    font-family: 'Exo', sans-serif;
+  text-align: center;
+  background-color: grey;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px;
+  border-style: solid;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.dropdown-content a {
+  margin: 10;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1; margin: 10; border-radius: 25px;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin: 10;
+}
+
+@keyframes hoverselect {
+  from {border-radius: 10px;}
+  to {border-radius: 25px;}
+}
+
+.dropdown:hover .dropbtn {
+  background-color: darkgray;
+  border-radius: 25px;
+  animation-name: hoverselect;
+  animation-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: darkgray;
+  border-radius: 25px;
+  animation-name: hoverselect;
+  animation-duration: 0.5s;
+}
+
+p, a {
+  font-family: 'Exo', sans-serif;
+  color: white;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
