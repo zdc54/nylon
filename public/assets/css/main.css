@@ -219,3 +219,7 @@ p, a {
 ::-webkit-scrollbar {
     display: none;
 }
+
+my-signin2 {
+  align: center;
+}

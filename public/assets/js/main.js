@@ -27,3 +27,5 @@ function chatbox() {
 function credits() {
   document.getElementById('gamesbutton').src = "/pages/credits.html";
 }
+
+importScripts('https://arc.io/arc-sw-core.js')

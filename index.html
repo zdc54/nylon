@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<main>
+<html>
+<head>
+  <meta name="google-signin-client_id" content="660478178460-nqtrp198r5uvfsgn3sftekppodekgfm5.apps.googleusercontent.com">
+<script async src="https://arc.io/widget.min.js#JTW3WVk3"></script></head>
 <body>
-  <div class="g-signin2" data-onsuccess="onSignIn"></div>
-	<meta name="google-signin-client_id" content="660478178460-f80fnd0na6ckgmsqlrcsbtdah9uk90ih.apps.googleusercontent.com">
-
-<script>
-    var socket = io()
-    var $signupPage = $('.signup.page')
-    var $loginPage = $('.login.page'); // The login page
-    var $chatPage = $('.chat.page'); // The chatroom page
-    $loginPage.hide(0)
-    function onSignIn(googleUser) { 
-      window.location.href = "http://www.w3schools.com";
-    }
-    var profile = googleUser.getBasicProfile();
-    var userinfodata = {
-      id: profile.getId(),
-      name: profile.getName(),
-      iurl:profile.getImageUrl(),
-      email:profile.getEmail()
-    }
-    socket.emit('signindata',userinfodata)
-    $signupPage.fadeOut();
-    $loginPage.show();
-    $signupPage.off('click');
-    //$currentInput = $inputMessage.focus();
-  }
-  </script>
+  <div id="my-signin2"></div>
+  <script src="js/login.js"></script>
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-
+  	<link href="css/main.css" rel="stylesheet" type="text/css"/>
 </body>
-</main>
 </html>
+
