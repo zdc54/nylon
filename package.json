@@ -1,0 +1,33 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "consolidate": "^0.16.0",
+    "discord-markdown": "^2.5.1",
+    "express": "^4.17.2",
+    "fastify": "^3.27.0",
+    "fastify-cookie": "^5.5.0",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.5.0",
+    "json-beautify": "^1.1.1",
+    "socket.io": "^2.4.1",
+    "swearjar": "^0.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socketio/socket.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/socketio/socket.io/issues"
+  },
+  "homepage": "https://github.com/socketio/socket.io#readme"
+}
