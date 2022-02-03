@@ -1,12 +1,114 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <meta name="google-signin-client_id" content="660478178460-nqtrp198r5uvfsgn3sftekppodekgfm5.apps.googleusercontent.com">
-<script async src="https://arc.io/widget.min.js#JTW3WVk3"></script></head>
-<body>
-  <div id="my-signin2"></div>
-  <script src="js/login.js"></script>
-  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-  	<link href="css/main.css" rel="stylesheet" type="text/css"/>
-</body>
-</html>
 
+<head>
+	<script>
+		var exports = {};
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta name="google-signin-client_id" content="660478178460-nqtrp198r5uvfsgn3sftekppodekgfm5.apps.googleusercontent.com">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://apis.google.com/js/platform.js" async defer>
+
+	</script>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="/public/assets/css/main.css" rel="stylesheet" type="text/css" />
+	<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js">
+
+	</script>
+	<script type="text/javascript" src="js/login.js">
+
+	</script>
+	<script type="text/javascript" src="js/logincheck.js" async defer>
+
+	</script>
+	<script>
+		isLoggedin = false;
+    if (isLoggedin) {
+      document.getElementByID("login").style.opacity = "50%";
+    }
+	</script>
+</head>
+</script>
+
+<body>
+
+	<div class="login" id="login">
+
+		<div id="my-signin2"></div>
+		<script>
+			isLoggedin = false;
+  
+    if (isLoggedin) {
+      document.querySelector('.login').style.opacity = "50%";
+    }
+
+		function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+      isLoggedin = true;
+    }
+    function onFailure(error) {
+      console.log(error);
+      isLoggedin = false;
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+      
+      if (isLoggedin) {
+        document.querySelector('.login').style.opacity = "50%";
+      }
+
+    }
+		</script>
+		<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer>
+
+		</script>
+
+
+	</div>
+	<script>
+		<div class="title">
+		<h1 class="titletext">Nylon</h1>
+		<h5 class="subtitletext">A simplistic proxy site</h5>
+	</div>
+	<div class="buttons">
+		<button class="button button1" onclick="home()" value="Home"> Home </button>
+      &nbsp;
+      <button class="button button1" onclick="games()" value="Games"> Games </button>
+      &nbsp;
+            <button class="button button1" onclick="credits()" value="credits"> Credits </button>
+            &nbsp;
+      <div class="dropdown">
+        <button class="dropbtn">Proxies</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="alloy()">Alloy</a>
+          <a href="#" onclick="womginx()">Womginx</a>
+          <a href="#" onclick="palladium()">Palladium</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+    <iframe src="/pages/home.html" class="contentiframe" id="gamesbutton">
+    Your browser doesn't support iframes
+    </iframe>
+    <script src="js/main.js">
+	</script>
+
+</body>
+
+</html>

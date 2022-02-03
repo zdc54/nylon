@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;900&family=Exo:wght@900&display=swap');
+
+.login {
+  width:100%;
+  height:100%;
+ 
+  position:absolute;
+  background-color: #383838; 
+  z-index: 9999999999999999999999;
+
+}
+
 .title {
   font-family: 'Exo', sans-serif;
   color: white;
@@ -218,8 +229,7 @@ p, a {
 
 ::-webkit-scrollbar {
     display: none;
-}
+};
 
 my-signin2 {
-  align: center;
 }
