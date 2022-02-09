@@ -7,9 +7,9 @@ I am still working on this, and I will improve it as time goes on.
 # Repl.it Setup Guide
 
 In order to setup Nylon, you need these 3 proxies:
-[Womginx] (https://github.com/binary-person/womginx)
-[Palladium] (https://github.com/LudicrousDevelopment/Palladium)
-[Alloy] (https://github.com/titaniunetwork-dev/alloy)
+[Womginx](https://github.com/binary-person/womginx)
+[Palladium](https://github.com/LudicrousDevelopment/Palladium)
+[Alloy](https://github.com/titaniunetwork-dev/alloy)
 
 1. If you have no money, go ahead and use [Repl.it.] (https://replit.com)
 First, go ahead and go to the proxy URLs listed above, and look in the readme.md for the "Deploy to Replit" button.
