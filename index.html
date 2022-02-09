@@ -38,49 +38,6 @@
 </script>
 
 <body>
-
-	<div class="login" id="login">
-
-		<div id="my-signin2"></div>
-		<script>
-			isLoggedin = false;
-  
-    if (isLoggedin) {
-      document.querySelector('.login').style.opacity = "50%";
-    }
-
-		function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-      isLoggedin = true;
-    }
-    function onFailure(error) {
-      console.log(error);
-      isLoggedin = false;
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-      
-      if (isLoggedin) {
-        document.querySelector('.login').style.opacity = "50%";
-      }
-
-    }
-		</script>
-		<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer>
-
-		</script>
-
-
-	</div>
-	<script>
 		<div class="title">
 		<h1 class="titletext">Nylon</h1>
 		<h5 class="subtitletext">A simplistic proxy site</h5>
@@ -96,8 +53,8 @@
         <button class="dropbtn">Proxies</button>
         <div class="dropdown-content">
           <a href="#" onclick="alloy()">Alloy</a>
-          <a href="#" onclick="womginx()">Womginx</a>
           <a href="#" onclick="palladium()">Palladium</a>
+          <a href="#" onclick="womginx()">Womginx</a>
         </div>
       </div>
     </div>

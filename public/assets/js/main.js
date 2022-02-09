@@ -31,3 +31,7 @@ function credits() {
 function corrosion() {
   document.getElementById('gamesbutton').src = "/pages/corrosion.html";
 }
+
+function womginx() {
+  document.getElementById('gamesbutton').src = "/pages/womginx.html";
+}
