@@ -83,3 +83,13 @@ For an online IDE that you can use on your school computer and/or chromebook use
 Make an account: https://gitpod.io/
 Fork this repo and enter in this URL to setup your workspace: https://gitpod.io#https://github.com/YourNameHere/Nylon/
 Use the same steps above by running npm install in your repository and adding a .gitignore in your root directory specifying to exclude node_modules.
+
+Contributors and Credits
+
+     dexah - Functionality, Frontend, Backend
+     ZDC - Link Implementation, Proxy Implementation, Frontend, Backend, etc.
+     Proxy Creators:
+
+     Palladium - EnderKingJ
+     Alloy - SexyDuceDuce
+     Womginx - Binary Person
