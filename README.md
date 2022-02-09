@@ -1,6 +1,6 @@
 # Nylon
 A simple, leightweight, user friendly proxy site.
-
+I am still working on this, and I will improve it as time goes on.
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/zdc54/nylon)
 [![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/zdc54/nylon)
