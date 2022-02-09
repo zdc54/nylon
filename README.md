@@ -1,6 +1,7 @@
 # Nylon
 A simple, leightweight, user friendly proxy site.
-
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/zdc54/nylon)
+[![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/zdc54/nylon)
 # Repl.it Setup Guide
 
 In order to setup Nylon, you need these 3 proxies:
