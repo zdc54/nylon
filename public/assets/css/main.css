@@ -1,23 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;900&family=Exo:wght@900&display=swap');
 
-.login {
-  width:100%;
-  height:100%;
- 
-  position:absolute;
-  background-color: #383838; 
-  z-index: 9999999999999999999999;
-
-}
-
 .title {
-  font-family: 'Exo', sans-serif;
+  border-bottom: 17px;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
   text-align: center;
-  background-color: gray;
   margin: 0px 25px -25px 25px;
   border-radius: 0px 0px 25px 25px;
   border-style: solid;
+  background: #282d3f;
 }
 
 .titletext {
@@ -29,11 +20,10 @@
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
   text-shadow:
     3px 3px 0 #000,
@@ -61,13 +51,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  background-color: grey;
-  margin: 10;
+    background: #282d3f;
   border-radius: 10px;
   border-style: solid;
-  color: white;
   text-shadow:
     3px 3px 0 #000,
     -1px -1px 0 #000,  
@@ -80,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
   display: flex;
   justify-content: center;
+    background: #3a5ee2;
 }
 
 .contentiframe {
@@ -100,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gamestext {
   display: inline-block;
-  align: center;
+  text-align: center;
 }
 
 
@@ -109,8 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
   margin: 0 auto;
   text-align: center;
-  background-color: #383838;
-}
+  background-color: #3a5ee2;
+  }
 
 html {
   margin: 0;
@@ -129,15 +118,14 @@ html {
 
 .dropbtn {
   border: none;
-  color: white;
   padding: 15px 32px;
+  margin: 0px auto;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  background-color: grey;
-  margin: 10;
+  background: #282d3f;
   border-radius: 10px;
   border-style: solid;
   color: white;
@@ -151,14 +139,18 @@ html {
 
 .dropdown {
   position: relative;
+  border-radius: 10px;
+  border-style: solid;
+  border: none;
   display: inline-block;
   margin: 0px;
+      background: #282d3f;
 }
 
 .dropdown-content {
+      background: #282d3f;
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -169,7 +161,6 @@ html {
   font-size: 16px;
     font-family: 'Exo', sans-serif;
   text-align: center;
-  background-color: grey;
   margin: 0px 0px 0px 0px;
   border-radius: 10px;
   border-style: solid;
@@ -225,8 +216,59 @@ p, a {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+     -webkit-animation: fadein 2s;
 }
 
 ::-webkit-scrollbar {
     display: none;
 };
+
+button:focus { outline-style: none; }
+ :focus {outline:none;}
+    ::-moz-focus-inner {border:0;}
+input {
+   outline: 0;
+}
+
+button {
+   outline: 0;
+}
+
+#test p, a, h1, h2, h3, h4, h5, h6, small, body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
